@@ -1,5 +1,5 @@
 function startupSequence() {
-    // Poner funciones que se debrían ejecutar cuando se carga la pagina.
+    // Poner funciones que se debrían ejecutar cuando se carga la pagina. (en orden)
     appendHeader();
     appendFooter();
 }
@@ -10,7 +10,7 @@ function appendHeader() {
     $("#header").load("header.html");
     setTimeout(function() {
         setTab(currentTab);
-    }, 500);
+    }, 1000);
 }
 function setTab(tab) {
     $(`#${tab}`).addClass('current-nav-pos');
