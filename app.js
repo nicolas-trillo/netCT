@@ -8,9 +8,9 @@ function appendFooter() {
 }
 function appendHeader() {
     $("#header").load("header.html");
-    $( document ).ready(function() {
+    setTimeout(function() {
         setTab(currentTab);
-    });
+    }, 500);
 }
 function setTab(tab) {
     $(`#${tab}`).addClass('current-nav-pos');
