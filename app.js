@@ -37,5 +37,5 @@ function navZoomAnimation() {
     $('.nav-mobile-menu').addClass('nav-animacion');
     setTimeout(function () {
         $('.nav-mobile-menu').removeClass('nav-animacion');
-    }, 600);
+    }, 500);
 }

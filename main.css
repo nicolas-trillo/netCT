@@ -208,8 +208,8 @@ html {
   }
 }
 .nav-animacion {
-  animation: zoomAni 0.6s;
-  -webkit-animation: zoomAni 0.6s;
+  animation: zoomAni 0.5s;
+  -webkit-animation: zoomAni 0.5s;
 }
 @keyframes zoomAni {
   50% {
@@ -220,14 +220,6 @@ html {
     -o-transform: scale(0.95);
     opacity: 30%;
   }
-  /* 90% {
-    transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
-    opacity: 90%;
-  } */
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
